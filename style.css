@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+
+}
+body{
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+#container {
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+   width: 95%;
+    max-width: 430px;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 25px;
+}
+
+
+.tudo {
+    padding: 20px;
+}
+
+.caixa-media1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.caixa-media1 input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 20.9rem;
+    border-radius: 90px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+.caixa-media1 button {
+    border: none;
+    background-color: #7c7c7c2b;
+    border-radius: 25px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.caixa-media1 button:hover {
+    background-color: white;
+}
+
+.caixa-media1 button:active {
+    opacity: .2;
+}
+
+.caixa-media2 {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.caixa-media2 .separaçao1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.caixa-media2 .separaçao2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixa-media2 h2 {
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.caixa-media2 .temp {
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.caixa-media2 .descricao {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+ .umidade {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
