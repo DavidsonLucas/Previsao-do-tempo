@@ -29,3 +29,11 @@ button.addEventListener("click", function () {
 
     buscarCidade(cidade)
 })
+
+document.addEventListener('keydown' ,function(evnte){
+
+    if(evnte.key === "Enter"){
+    const cidade = document.querySelector("input").value
+    buscarCidade(cidade)
+    }
+})
